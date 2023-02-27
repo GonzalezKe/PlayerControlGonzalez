@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // Private Variables
-    private float speed = 5.0f;
-    private float turnSpeed;
+    private float speed = 7.0f;
+    private float turnSpeed = 25.0f;
     private float horizontalInput;
     private float forwardInput;
 
@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //This is where we get the player input
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
 
