@@ -464,6 +464,9 @@ GameObject:
   - component: {fileID: 3470401906786049926}
   - component: {fileID: 7554020315370268897}
   - component: {fileID: 664352992586268215}
+  - component: {fileID: 8303316323720012531}
+  - component: {fileID: 6593984909866621126}
+  - component: {fileID: 66619662}
   m_Layer: 0
   m_Name: Animal_Cow_Brown
   m_TagString: Untagged
@@ -479,7 +482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3470401906776553734}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -7.238863, y: 0, z: 6.222437}
+  m_LocalPosition: {x: -7.238863, y: 0.074, z: 6.222437}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -519,8 +522,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe39fb78f49d9924a8783ba3e5fd7c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 10
 --- !u!114 &664352992586268215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3470401906776553734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb10ab94670bb8d439da2f1a4b5c8aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8303316323720012531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3470401906776553734}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.308882, y: 35.938824, z: 45.11654}
+  m_Center: {x: -0.6544404, y: 14.346414, z: 4.4562654}
+--- !u!114 &6593984909866621126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3470401906776553734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d982ebcdd52c64eb99688bab45fcad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &66619662
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

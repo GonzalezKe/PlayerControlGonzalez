@@ -1531,6 +1531,9 @@ GameObject:
   - component: {fileID: 5382157833323869346}
   - component: {fileID: 5771237074578316297}
   - component: {fileID: 6730790453805665104}
+  - component: {fileID: 1204155633172553966}
+  - component: {fileID: 5477367708223046929}
+  - component: {fileID: 1154495029}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -1591,8 +1594,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe39fb78f49d9924a8783ba3e5fd7c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 10
 --- !u!114 &6730790453805665104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5382157833331187382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb10ab94670bb8d439da2f1a4b5c8aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1204155633172553966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5382157833331187382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.183957, y: 35.494915, z: 33.768154}
+  m_Center: {x: -0.9173417, y: 17.247446, z: 4.8156176}
+--- !u!114 &5477367708223046929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5382157833331187382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d982ebcdd52c64eb99688bab45fcad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1154495029
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
